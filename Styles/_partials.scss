@@ -1,0 +1,25 @@
+// Hand crafted section
+.handCrafted {
+  background-color: $darkTwo;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  .wrapper {
+    display: flex;
+  }
+  .hand-crafted_Image {
+    width: 30%;
+    margin: 0;
+    img {
+      width: 300px;
+      height: auto;
+    }
+  }
+  .hand-crafted_Content {
+    width: 70%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
