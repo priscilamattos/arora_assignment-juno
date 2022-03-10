@@ -24,7 +24,7 @@ body {
   margin: 0;
 }
 .handCrafted .hand-crafted_Image img {
-  width: 300px;
+  width: 330px;
   height: auto;
 }
 .handCrafted .hand-crafted_Content {
@@ -32,6 +32,240 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+.handCrafted .hand-crafted_Content h2 {
+  font-family: "Italiana";
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0;
+}
+.handCrafted .hand-crafted_Content p {
+  font-family: "Lato", sans-serif;
+  font-size: "1rem";
+  color: #ffffff;
+  line-height: 29px;
+}
+.handCrafted .hand-crafted_Content a {
+  font-family: "Italiana";
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  word-wrap: normal;
+  border: 1px solid #faba63;
+  width: 140px;
+  padding: 5px;
+}
+
+.latestCollection {
+  background-color: #201e21;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+.latestCollection .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.latestCollection h2 {
+  font-family: "Italiana";
+  font-size: 3rem;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+.latestCollection .collectionImages {
+  display: flex;
+}
+.latestCollection .collectionImages img {
+  width: 30%;
+  margin: auto;
+}
+
+.about {
+  height: 250px;
+  background-color: #14171f;
+  display: flex;
+  align-items: center;
+}
+.about .wrapper {
+  display: flex;
+}
+.about .aboutLinks {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.about .aboutLinks .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .aboutLinks .links i {
+  color: #faba63;
+}
+.about .aboutLinks .links p {
+  font-family: "Italiana";
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.secondReadingList,
+.readingList {
+  background-color: #201e21;
+  display: flex;
+}
+.secondReadingList .wrapper,
+.readingList .wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  justify-content: center;
+  width: 50%;
+}
+.secondReadingList .article,
+.readingList .article {
+  display: flex;
+  flex-direction: column;
+}
+.secondReadingList .article h2,
+.readingList .article h2 {
+  font-family: "Italiana";
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.secondReadingList .article p,
+.readingList .article p {
+  font-family: "Lato", sans-serif;
+  font-size: "1rem";
+  color: #ffffff;
+  line-height: 29px;
+  width: 80%;
+}
+.secondReadingList .article a,
+.readingList .article a {
+  font-family: "Italiana";
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #faba63;
+  width: 140px;
+  padding: 5px;
+}
+.secondReadingList .articleImage,
+.readingList .articleImage {
+  width: 50%;
+}
+.secondReadingList .articleImage img,
+.readingList .articleImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.secondReadingList {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.secondReadingList .wrapper {
+  margin-right: 0;
+  padding-left: 0;
+  justify-content: center;
+  width: 50%;
+}
+.secondReadingList .article {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10%;
+}
+.secondReadingList .article h2 {
+  text-align: right;
+}
+.secondReadingList .article p {
+  width: 80%;
+}
+.secondReadingList .articleImage {
+  width: 50%;
+}
+.secondReadingList .articleImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  height: 250px;
+  background-color: #14171f;
+}
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.footer .linkFooter {
+  display: flex;
+  flex-direction: column;
+}
+.footer .linkFooter a {
+  font-family: "Italiana";
+  font-size: "1rem";
+  color: #ffffff;
+  line-height: 29px;
+  text-decoration: none;
+}
+.footer .form h5 {
+  font-family: "Italiana";
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.footer .form p {
+  font-family: "Lato", sans-serif;
+  font-size: "1rem";
+  color: #ffffff;
+  line-height: 8px;
+}
+.footer .form input {
+  width: 400px;
+  height: 30px;
+  border: none;
+}
+.footer .form button {
+  height: 30px;
+  background-color: black;
+  border: none;
+  color: #ffffff;
+  font-family: "Italiana";
+  font-size: "1rem";
+  padding: 5px;
+}
+.footer .footerInfo h5 {
+  font-family: "Italiana";
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: right;
+  margin: 0;
+}
+.footer .footerInfo p {
+  font-family: "Lato", sans-serif;
+  font-size: "1rem";
+  color: #ffffff;
+  line-height: 8px;
+  text-align: right;
 }
 
 .background {
